@@ -5,7 +5,7 @@ Description: >-
 
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: aws-sam-codepipeline-cd
+    Name: aws-sam-codepipeline-cd-2
     Description: >-
       This serverless app sets up an AWS CodePipeline Pipeline as a CD solution for a GitHub-based SAM project. Once setup, every time the specified GitHub repository branch is updated, the change will flow through the CodePipeline pipeline.
     Author: AWS Serverless Application Repository
