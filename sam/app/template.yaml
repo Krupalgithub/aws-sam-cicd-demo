@@ -120,7 +120,7 @@ Conditions:
   HasDeployStage:
     !Not [!Equals [!Ref DeployRoleName, '']]
   HasPublishStage:
-    !Equals [!Ref PublishToSAR, 'true']
+    !Equals [!Ref PublishToSAR, 'false']
   UseCodeCommit:
     !Equals [!Ref SourceCodeProvider, 'CodeCommit']
   UseGitHub:
